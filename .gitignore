@@ -1,0 +1,24 @@
+# Node.js / Typescript
+node_modules/
+dist/
+*.tsbuildinfo
+
+# Environment variables
+.env
+
+# Logs
+logs
+*.log
+npm-debug.log
+yarn-error.log
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.sublime-*
+*.swp
+*.swo
+
+# Other
+.DS_Store
+Thumbs.db
