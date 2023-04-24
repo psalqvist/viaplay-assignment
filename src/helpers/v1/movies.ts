@@ -44,7 +44,7 @@ const getTrailer = async (imdbId: string): Promise<string | undefined> => {
         return `https://www.youtube.com/watch?v=${trailer.key}`;
       } catch (error) {
 
-        console.error(error);
+        console.error(error.message);
         return undefined;
       }
 }
@@ -66,7 +66,7 @@ const getImdbId = async (url: string): Promise<string | undefined> => {
         return imdbId;
       } catch (error) {
 
-        console.error(error);
+        console.error(error.message);
         return undefined;
       }
 }

@@ -3,7 +3,7 @@ import http from 'http';
 import cors from 'cors';
 import dotenv from 'dotenv';
 
-import router from './router';
+import router from './routes';
 
 dotenv.config();
 
