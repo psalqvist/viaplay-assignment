@@ -43,7 +43,7 @@ To run the tests, use the following command: `npm test`
 
 ## Production readiness
 
-While the solution is not yet production-ready, the following steps can be taken to improve its scalability and reliability:
+While the solution is not yet production-ready, the following steps can be taken to improve it:
 
 - Containerization: Docker can be used to create lightweight containers for the application, which can be easily scaled horizontally.
 - Cotainer Orchestration: Kubernetes can be used to manage containers at scale and ensure that requests are distributed evenly across nodes using load balancers. Can also enable us to develop a micro service architecture rather than a monolith, and thus create seperation of concern across teams.
