@@ -8,6 +8,7 @@ The project is a simple Node.js server that provides an API endpoint for retriev
 
 The project uses the following technologies:
 
+- Typescript
 - Node.js
 - Express.js
 - Axios
@@ -19,7 +20,7 @@ The project uses the following technologies:
 
 To set up the project, you need to do the following:
 
-1. Clone the repository: `git clone https://github.com/psalqvist/viaplay-assignment.git`
+1. Clone the repository: `git clone git@github.com:psalqvist/viaplay-assignment.git`
 
 2. Install the dependencies:
 
