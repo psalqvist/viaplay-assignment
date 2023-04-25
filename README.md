@@ -49,11 +49,17 @@ npm install
 
 3. Create a `.env` file with the following environment variables: `TMDB_API_KEY=<your TMDb API key>`
 
-4. Start the server: `npm start`
+4. To build the TypeScript code into JavaScript, run: `npm run build`
 
-5. The server is now running on `http://localhost:8080`.
+5. Start the server: `npm start`
 
-6. Send a get request to try the api: `GET /v1/movies/trailer?url=https://content.viaplay.se/pc-se/film/arrival-2016`
+6. The server is now running on `http://localhost:8080`.
+
+7. Send a get request to try the api: `GET /v1/movies/trailer?url=https://content.viaplay.se/pc-se/film/arrival-2016`
+
+## Running server in development mode
+
+To start the server in development mode using nodemon and ts-node, run: `npm run dev`
 
 ## Running Tests
 
