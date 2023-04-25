@@ -16,6 +16,24 @@ The project uses the following technologies:
 - Jest
 - Supertest
 
+## File Structure
+
+- `README.md`: Brief overview of the project and how to use it
+- `package.json`: Package configuration file for Node.js
+- `package-lock.json`: Automatically generated file used by npm to ensure consistency in dependencies
+- `tsconfig.json`: Configuration file for TypeScript compiler
+- `jest.config.js`: Configuration file for Jest testing framework
+- `nodemon.json`: Configuration file for nodemon, a tool that restarts the Node.js application on file changes during development
+- `.env`: Environment variables for development environment
+- `.env.test`: Environment variables for testing environment
+- `.gitignore`: A file that lists files and directories that should not be tracked by Git version control
+- `src/`: Directory for source code
+  - `index.ts`: Main entry point of the application
+  - `controllers/`: Directory for application controllers
+  - `helpers/`: Directory for helper functions used by the controllers
+  - `routes/`: Directory for application routes
+- `tests/`: Directory for tests
+
 ## Project Setup
 
 To set up the project, you need to do the following:
