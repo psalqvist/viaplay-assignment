@@ -1,6 +1,6 @@
 # Viaplay Assignment
 
-This is the technical assignment for the Backend Engineering position at Viaplay Group.
+This is a technical assignment for the Backend Engineering position at Viaplay Group.
 
 ## Project Overview
 
