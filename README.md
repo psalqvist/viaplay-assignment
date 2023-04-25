@@ -75,7 +75,7 @@ While the solution is not yet production-ready, the following steps can be taken
 - Metrics and performance monitoring: Prometheus and Grafana can be used to monitor the application's metrics and performance.
 - CI/CD: CI should be implemented to make sure that all tests are run on every pull request. CD should be implemented to get more control of the deployment process.
 - Create seperate branches for development and production and only run the CD pipeline when changes are integrated into the development branch.
-
+- Authorization should be implemented and tokens should be verified to give access to the api
 
 
 
